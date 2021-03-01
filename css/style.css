@@ -25,17 +25,18 @@ header {
     text-align:center;
     padding:10px;
 }
+/*Hero Section*/
 
 #hero img {
     width:300px;
 }
-
+/* Bio Section */
 #bio {
-    text-align:center;
-    
+    text-align:center;    
 }
+/*Hobbies Section */
 #hobbies ul li:nth-child(4n+1) {
-   
+
     color:black
 
 }
@@ -53,4 +54,16 @@ header {
     
     color:rgb(0, 0, 104)
 
+}
+/* Gallery */
+#gallery {
+    border: 2px solid #85966C;
+    
+}
+#gallery img {
+    max-width:100%
+}
+
+#gallery figure {
+    text-align:center;
 }
