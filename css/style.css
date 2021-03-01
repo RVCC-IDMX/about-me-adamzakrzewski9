@@ -58,7 +58,7 @@ header {
 /* Gallery */
 #gallery {
     border: 2px solid #85966C;
-    
+    margin-bottom:1rem;
 }
 #gallery img {
     max-width:100%
@@ -66,4 +66,37 @@ header {
 
 #gallery figure {
     text-align:center;
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #85966C;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:0.3rem 0;
+    max-width:40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+/* Dropcaps */
+
+#lit div p:nth-child(4n+1):first-letter {
+
+    color: #85966C;
+    background-image:radial-gradient(#FFF, #A3721C);
+    float:left;
+    font-size:3em;
+    padding:.1em;
+    margin-right:.25em;
+    line-height:.65;
+    text-shadow:2px 2px 3px rgba(0,0,0,.5);
+    box-shadow:5px 5px 5px rgba(0,0,0,.5);
+    border:2px solid black;
 }
