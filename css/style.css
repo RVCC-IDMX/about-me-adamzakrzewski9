@@ -1,6 +1,7 @@
 body {
+    font-size: 14pt;
     font-family:Roboto;
-    background-color: #FCEE51;
+    background-color: #fff9b4;
     color:#2C56C9
 }
 
@@ -16,7 +17,7 @@ header {
 #hero, footer {
     color:#2C56C9;
     border: 2px solid #85966C;
-    background-color: #88C92C;
+    background-color: #bff86e;
     text-align:center;
     padding:10px;
 }
