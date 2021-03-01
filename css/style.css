@@ -7,6 +7,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Fredoka One";
+    text-align: center;
+}    
+h1 {
     font-size:40pt;
 }
 
@@ -15,6 +18,7 @@ header {
 }
 
 #hero, footer {
+    
     color:#2C56C9;
     border: 2px solid #85966C;
     background-color: #bff86e;
@@ -29,4 +33,24 @@ header {
 #bio {
     text-align:center;
     
+}
+#hobbies ul li:nth-child(4n+1) {
+   
+    color:black
+
+}
+#hobbies ul li:nth-child(4n+2) {
+    
+    color:rgb(0, 63, 0)
+
+}
+#hobbies ul li:nth-child(4n+3) {
+    
+    color:rgb(109, 107, 0)
+
+}
+#hobbies ul li:nth-child(4n+4) {
+    
+    color:rgb(0, 0, 104)
+
 }
