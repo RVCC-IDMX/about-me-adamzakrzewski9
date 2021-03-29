@@ -76,6 +76,17 @@ header {
     text-align:center;
 }
 
+/* Video */
+#video {
+    border: 2px solid #85966C;
+    margin-bottom:1rem;
+    text-align:center;
+}
+#video iframe {
+    max-width:100%
+}
+
+
 /* Literature */
 #lit {
     border: 2px solid #85966C;
