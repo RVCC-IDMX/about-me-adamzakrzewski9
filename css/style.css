@@ -171,7 +171,7 @@ header {
 }
 #contact {
     padding: 1rem;
-    max: width 600px;
+    max-width: 600px;
     margin: 2rem auto;
 
 }
