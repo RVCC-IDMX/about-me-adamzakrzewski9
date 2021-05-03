@@ -2,7 +2,7 @@ body {
     font-size: 14pt;
     font-family:Roboto;
     background-color: #fff9b4;
-    color:#2C56C9
+    color:#1b3c96
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +21,7 @@ header {
 
 #hero, footer {
     
-    color:#2C56C9;
+    color:#1b3c96;
     border: 2px solid #85966C;
     background-color: #bff86e;
     text-align:center;
@@ -55,7 +55,7 @@ header {
 }
 #hobbies ul li:nth-child(4n+3) {
     
-    color:rgb(109, 107, 0)
+    color:rgb(80 79 0)
 
 }
 #hobbies ul li:nth-child(4n+4) {
@@ -108,7 +108,7 @@ header {
 
 #lit div p:first-child:first-letter {
 
-    color: #85966C;
+    color: #b6c3a2;
     background-image:radial-gradient(#FFF, #A3721C);
     float:left;
     font-size:3em;
@@ -177,7 +177,7 @@ header {
 }
 
 fieldset {
-    border: 2px solid #85966C;
+    border: 2px solid #b6c3a2;
     margin-top:1em;
     margin-bottom:1em;
 
@@ -186,8 +186,8 @@ fieldset {
 }
 
 legend {
-    background-color: #85966C;
-    color: white;
+    background-color: #b6c3a2;
+    color: #272727;
     padding: .5em;
 }
 #contact input, #contact textarea, #contact select, #contact button {
@@ -205,9 +205,9 @@ legend {
 }
 #contact button {
 
-    background-color: #85966C;
-    color: white;
-    border: 1px solid #2C56C9;
+    background-color: #b6c3a2;
+    color: #272727;
+    border: 1px solid #1b3c96;
     max-width: 400px;
     width: 50%;
     justify-self: center;
