@@ -29,6 +29,13 @@ Here is the change to be AAA compliant:
 # favicon
 ![New Logo](https://adamzakrzewski9.netlify.app/img/favicon-96x96.png)
 
+# three sources for zoom on hover
+
+![W3 Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+![W3 bits](https://w3bits.com/css-image-hover-zoom/)
+![Geeks for Geeks](https://www.geeksforgeeks.org/how-to-zoom-an-image-on-mouse-hover-using-css/)
+
+
 # Citations
 Logo font is "Faster One by Tipo". This font was found [here.](https://www.1001fonts.com/black+google-web-fonts.html?page=1)
 

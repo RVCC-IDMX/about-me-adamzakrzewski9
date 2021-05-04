@@ -108,7 +108,7 @@ header {
 }
 
 
-/* Literature */
+/* Blog Post */
 #lit {
     border: 2px solid #85966C;
     margin-bottom:2rem;
@@ -139,6 +139,41 @@ header {
     text-shadow:2px 2px 3px rgba(0,0,0,.5);
     box-shadow:5px 5px 5px rgba(0,0,0,.5);
     border:2px solid black;
+}
+
+#lit .code {
+    border: 1px solid #85966C;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+#lit img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+/* The hoverZoom container */
+
+.hoverZoom {
+    height: 300px; 
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    
+}
+  
+/* Smooth zoom of images */
+.hoverZoom img {
+    transition: transform .5s ease;
+   
+}
+  
+/* Transforming when hovered over image*/
+.hoverZoom:hover img {
+    transform: scale(4);
 }
 
 
@@ -201,9 +236,6 @@ fieldset {
     border: 2px solid #b6c3a2;
     margin-top:1em;
     margin-bottom:1em;
-
-
-
 }
 
 legend {
@@ -212,7 +244,6 @@ legend {
     padding: .5em;
 }
 #contact input, #contact textarea, #contact select, #contact button {
-
     padding: .5em;
     font-size: 1rem;
 
