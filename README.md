@@ -49,6 +49,10 @@ Tools for picking colors:
 
 ReadMe was created with the help of this [link](https://www.makeareadme.com/)
 
+# Navbar
+The navbar was created using this tutorial:
+[Navbar tutorial](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
+
 # License
 ©2021 - Adam Zakrzewski
 
