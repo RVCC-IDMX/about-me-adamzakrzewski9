@@ -2,7 +2,7 @@ body {
     font-size: 14pt;
     font-family:Roboto;
     background-color: #fff9b4;
-    color:#2C56C9
+    color:#1b3c96
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,20 +21,29 @@ header {
 
 #hero, footer {
     
-    color:#2C56C9;
+    color:#1b3c96;
     border: 2px solid #85966C;
     background-color: #bff86e;
     text-align:center;
     padding:10px;
 }
+
 /*Hero Section*/
 
 #hero img {
-    width:300px;
+    border: 1px solid #85966C;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
 }
+  
+#hero img:hover {
+    box-shadow: 0 0 2px 1px #1b3c96;
+  }
+  
 /* Bio Section */
 #bio {
-    text-align:center;    
+    text-align: left;  
 }
 /*Hobbies Section */
 
@@ -42,6 +51,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 #hobbies ul li:nth-child(4n+1) {
 
@@ -55,7 +65,7 @@ header {
 }
 #hobbies ul li:nth-child(4n+3) {
     
-    color:rgb(109, 107, 0)
+    color:rgb(80 79 0)
 
 }
 #hobbies ul li:nth-child(4n+4) {
@@ -70,12 +80,24 @@ header {
 }
 #gallery img {
     max-width:100%
+    
 }
 
 #gallery figure {
     text-align:center;
 }
 
+#gallery figure img {
+    border: 1px solid #85966C;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+
+}
+
+#gallery figure img:hover {
+    box-shadow: 0 0 2px 1px #1b3c96;
+}
 /* Video */
 #video {
     border: 2px solid #85966C;
@@ -87,7 +109,7 @@ header {
 }
 
 
-/* Literature */
+/* Blog Post */
 #lit {
     border: 2px solid #85966C;
     margin-bottom:2rem;
@@ -108,7 +130,7 @@ header {
 
 #lit div p:first-child:first-letter {
 
-    color: #85966C;
+    color: #b6c3a2;
     background-image:radial-gradient(#FFF, #A3721C);
     float:left;
     font-size:3em;
@@ -118,6 +140,41 @@ header {
     text-shadow:2px 2px 3px rgba(0,0,0,.5);
     box-shadow:5px 5px 5px rgba(0,0,0,.5);
     border:2px solid black;
+}
+
+#lit .code {
+    border: 1px solid #85966C;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+#lit img {
+    width: 300px;
+    height: 300px;
+    
+}
+
+/* The hoverZoom container */
+
+.hoverZoom {
+    height: 300px; 
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    
+}
+  
+/* Smooth zoom of images */
+.hoverZoom img {
+    transition: transform .5s ease;
+   
+}
+  
+/* Transforming when hovered over image*/
+.hoverZoom:hover img {
+    transform: scale(4);
 }
 
 
@@ -177,21 +234,17 @@ header {
 }
 
 fieldset {
-    border: 2px solid #85966C;
+    border: 2px solid #b6c3a2;
     margin-top:1em;
     margin-bottom:1em;
-
-
-
 }
 
 legend {
-    background-color: #85966C;
-    color: white;
+    background-color: #b6c3a2;
+    color: #272727;
     padding: .5em;
 }
 #contact input, #contact textarea, #contact select, #contact button {
-
     padding: .5em;
     font-size: 1rem;
 
@@ -205,9 +258,9 @@ legend {
 }
 #contact button {
 
-    background-color: #85966C;
-    color: white;
-    border: 1px solid #2C56C9;
+    background-color: #b6c3a2;
+    color: #272727;
+    border: 1px solid #1b3c96;
     max-width: 400px;
     width: 50%;
     justify-self: center;
