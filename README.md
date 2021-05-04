@@ -6,7 +6,7 @@ Adam Zakrzewski
 
 # Description
 
-This is the About Me project for Web Development. It will be used as a portfolio. This project uses HTML5 and CSS. Topics covered include color accessibility, responsive design, navigation bars, menus, transitions, transforms, tables, forms, elements, images, links, and general styling.
+This is the About Me project for Web Development. It will be used as a portfolio. This project uses HTML5 and CSS. Topics covered include color accessibility, responsive design, navigation bars, menus, transitions, transforms, tables, forms, elements, images, links, and general styling. A Github social media icon was added to the footer.
 
 # Color Scheme
 
