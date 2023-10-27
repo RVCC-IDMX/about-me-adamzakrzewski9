@@ -57,5 +57,5 @@ The navbar was created using this tutorial:
 ©2021 - Adam Zakrzewski
 
 # Questions
-If there are additional questions, I can be reached at by [email.](azak5274@stu.raritanval.edu)
+If there are additional questions, I can be reached at by [email.](zakski@gmail.com)
 
