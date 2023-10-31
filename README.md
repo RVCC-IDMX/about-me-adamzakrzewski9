@@ -54,7 +54,7 @@ The navbar was created using this tutorial:
 [Navbar tutorial](https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/)
 
 # License
-©2021 - Adam Zakrzewski
+©2021 - 2023 Adam Zakrzewski
 
 # Questions
 If there are additional questions, I can be reached at by [email.](zakski@gmail.com)
